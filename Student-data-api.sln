@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student-data-api", "Student-data-api\Student-data-api.csproj", "{2C788435-0388-4ED4-9023-147CA91F6642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student-data-api", "Student-data-api\Student-data-api.csproj", "{2C788435-0388-4ED4-9023-147CA91F6642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Models", "Student_Models\Student_Models.csproj", "{E5186BDB-2516-4C21-B6C7-D58AB5E67727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Models", "Student_Models\Student_Models.csproj", "{E5186BDB-2516-4C21-B6C7-D58AB5E67727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Services", "Student_Services\Student_Services.csproj", "{E68D10F5-99D3-40A5-B098-5D29C12D4402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Services", "Student_Services\Student_Services.csproj", "{E68D10F5-99D3-40A5-B098-5D29C12D4402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Repository", "Student_Repository\Student_Repository.csproj", "{C06EFBD0-7E57-4DEA-B320-53F60F5D1841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Repository", "Student_Repository\Student_Repository.csproj", "{C06EFBD0-7E57-4DEA-B320-53F60F5D1841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

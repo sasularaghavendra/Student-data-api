@@ -18,12 +18,12 @@ namespace Student_data_api.Controllers
         {
             _studentData = studentData;
         }
-        [HttpPost]
+        [HttpPost("addStudentDetails")]
         public async Task<ServiceResponse<Student>> addStudentDetails(Student student)
         {
             return await _studentData.addStudentDetails(student);
         }
-        [HttpGet]
+        [HttpGet("getClassAverageMarks")]
         public ServiceResponse<double> getClassMarksAverageDetails(int classId)
         {
             return _studentData.getClassMarksAverageDetails(classId);

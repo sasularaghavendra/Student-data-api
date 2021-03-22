@@ -36,7 +36,7 @@ namespace Student_data_api
             services.AddDbContext<StudentDatabaseContext>(options =>
                                                           options.UseNpgsql(Configuration.GetConnectionString("StudentDatabase")));
             //Add scope to interfaces and repositories
-            services.AddScoped<IStudentData, StudentDataService>();
+            services.AddScoped<IStudentData, StudentData>();
             services.AddScoped<IStudentDataRepository, StudentDataRepository>();
 
             services.AddSwaggerGen(c =>

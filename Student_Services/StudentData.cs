@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Student_Services
 {
-    public class StudentDataService : IStudentData
+    public class StudentData : IStudentData
     {
         private readonly IStudentDataRepository _studentDataRepository;
-        public StudentDataService(IStudentDataRepository studentDataRepository)
+        public StudentData(IStudentDataRepository studentDataRepository)
         {
             _studentDataRepository = studentDataRepository;
         }
@@ -20,7 +20,7 @@ namespace Student_Services
 
         public ServiceResponse<double> getClassMarksAverageDetails(int classId)
         {
-            throw new NotImplementedException();
+            return _studentDataRepository.getClassMarksAverageDetails(classId);
         }
     }
 }

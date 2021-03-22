@@ -36,7 +36,32 @@ namespace Student_Repository
 
         public ServiceResponse<double> getClassMarksAverageDetails(int classId)
         {
-            throw new NotImplementedException();
+            ServiceResponse<double> serviceResponse = new ServiceResponse<double>();
+            try
+            {
+                var classDetails = _studentDatabaseContext.Students.Where(std => std.Class == classId).ToList();
+
+                if (classDetails.Count != 0)
+                {
+                    int studentsCount = classDetails.Count();
+                    int totalClassMarks = classDetails.Sum(x => x.Marks);
+                    serviceResponse.Data = totalClassMarks / studentsCount;
+                    serviceResponse.Message = $"{classId}th Class average marks displayed";
+                    return serviceResponse;
+                }
+                else
+                {
+                    serviceResponse.Success = false;
+                    serviceResponse.Message = "Records not available.";
+                    return serviceResponse;
+                }
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = ex.Message;
+                return serviceResponse;
+            }
         }
     }
 }
