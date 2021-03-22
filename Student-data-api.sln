@@ -13,9 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Repository", "Stude
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B587EE76-4A9E-49DE-B5F4-FB98042B94AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedTestData", "SharedTestData\SharedTestData.csproj", "{F5A47CF8-C352-47D4-9EF7-5535E9FD58FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentData.UnitTest", "StudentData.UnitTest\StudentData.UnitTest.csproj", "{2C808631-0ECC-4676-8E14-E0BA75E2B190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentData.UnitTest", "StudentData.UnitTest\StudentData.UnitTest.csproj", "{2C808631-0ECC-4676-8E14-E0BA75E2B190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +37,6 @@ Global
 		{C06EFBD0-7E57-4DEA-B320-53F60F5D1841}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C06EFBD0-7E57-4DEA-B320-53F60F5D1841}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C06EFBD0-7E57-4DEA-B320-53F60F5D1841}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5A47CF8-C352-47D4-9EF7-5535E9FD58FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5A47CF8-C352-47D4-9EF7-5535E9FD58FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5A47CF8-C352-47D4-9EF7-5535E9FD58FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5A47CF8-C352-47D4-9EF7-5535E9FD58FB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C808631-0ECC-4676-8E14-E0BA75E2B190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C808631-0ECC-4676-8E14-E0BA75E2B190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C808631-0ECC-4676-8E14-E0BA75E2B190}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -52,7 +46,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F5A47CF8-C352-47D4-9EF7-5535E9FD58FB} = {B587EE76-4A9E-49DE-B5F4-FB98042B94AE}
 		{2C808631-0ECC-4676-8E14-E0BA75E2B190} = {B587EE76-4A9E-49DE-B5F4-FB98042B94AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
